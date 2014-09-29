@@ -1,0 +1,21 @@
+{
+  "name": "safe-uncaught-exception",
+  "version": "0.1.0",
+  "description": "Simple helper function for better handling or the uncaughtException event",
+  "main": "lib/main.js",
+  "scripts": {
+    "prepublish": "./node_modules/.bin/coffee -o lib/ src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "uncaught",
+    "unhandled",
+    "exception",
+    "error"
+  ],
+  "author": "Tomas Ruzicka <tomasruzicka@abdoc.net> (http://github.com/lezuse)",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "~1.8.0"
+  }
+}
