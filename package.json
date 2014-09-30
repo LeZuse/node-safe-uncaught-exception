@@ -1,12 +1,16 @@
 {
   "name": "safe-uncaught-exception",
   "version": "0.1.0",
-  "description": "Simple helper function for better handling or the uncaughtException event",
+  "description": "Simple helper function for better handling of the uncaughtException event",
   "main": "lib/main.js",
   "scripts": {
     "prepublish": "./node_modules/.bin/coffee -o lib/ src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lezuse/node-safe-uncaught-exception"
+  }
   "keywords": [
     "uncaught",
     "unhandled",
@@ -17,5 +21,8 @@
   "license": "MIT",
   "devDependencies": {
     "coffee-script": "~1.8.0"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
   }
 }
